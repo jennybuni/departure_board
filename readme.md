@@ -2,6 +2,8 @@
 
 A Python-based digital train departure board that displays real-time train information for a specific platform at a railway station. The application uses the National Rail Data Feeds API to fetch live departure information and presents it in a visually appealing digital display format.
 
+
+
 ## Features
 
 - Real-time train departure information
@@ -11,6 +13,8 @@ A Python-based digital train departure board that displays real-time train infor
 - Configurable display settings
 - Support for multiple platforms
 - Weather information integration (optional)
+
+![Alt text](assets/screenshot.png)
 
 ## Prerequisites
 
@@ -72,5 +76,12 @@ The display will show:
 
 - Press `ESC` to exit the application
 - Close the window to quit
+
+
+## 
+This program has been written for use on a raspbery pi zero W
+so it is lightweight and outputs to HDMI.
+Outputting to spi is in the works.
+
 
 
