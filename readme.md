@@ -54,7 +54,7 @@ The `config.json` file allows you to customize various aspects of the display:
 - `CLOCK_FONT_SIZE`: Size of the clock display
 - `TRAIN_FONT_SIZE`: Size of train information text
 - `STATUS_FONT_SIZE`: Size of status text
-- `LATITUDE`: Latitude for temp
+- `LATITUDE`: Latitude for temp *weather API Queried every 10 minutes*
 - `LONGITUDE`: Longitude for temp
 
 ## Usage
