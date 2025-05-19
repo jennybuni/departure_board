@@ -240,13 +240,12 @@ def main():
         # Draw clock and temperature
         current_time = datetime.now().strftime("%H:%M:%S")
         clock_text = clock_font.render(current_time, True, ORANGE)
-        temp_text = train_font.render(current_temp, True, ORANGE)
-        
+        temp_text = train_font.render(current_temp, True, ORANGE)        
         # Center the clock
         clock_x = (WINDOW_WIDTH - clock_text.get_width()) // 2
         clock_y = WINDOW_HEIGHT - clock_text.get_height() - 20
         
-        # Position temperature to the right of the clock with fixed spacing
+       # Position temperature to the right of the clock with fixed spacing
         temp_x = clock_x + clock_text.get_width() + 60  # Fixed 60px spacing
         temp_y = clock_y + (clock_text.get_height() - temp_text.get_height()) // 2
         
@@ -256,8 +255,7 @@ def main():
             clock_y - 10,
             clock_text.get_width() + temp_text.get_width() + 70,
             clock_text.get_height() + 20
-        ))
-        
+        ))       
         # Draw clock and temperature
         frame_surface.blit(clock_text, (clock_x, clock_y))
         frame_surface.blit(temp_text, (temp_x, temp_y))
@@ -273,3 +271,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # End-of-file (EOF)

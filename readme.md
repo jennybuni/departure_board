@@ -48,7 +48,7 @@ The `config.json` file allows you to customize various aspects of the display:
 - `API_KEY`: Your National Rail Data Feeds API key
 - `STATION_CODE`: The station CRS code (e.g., "WAT" for London Waterloo)
 - `TARGET_PLATFORMS`: Array of platform numbers to display 
-- `UPDATE_INTERVAL`: Time between API updates (in seconds) *advised to keep at 60 seconds*
+- `UPDATE_INTERVAL`: Time between API updates (in seconds) *advised to keep between 45 & 60 seconds to not overload the api*
 - `ROTATE_DISPLAY`: Enable/disable display rotation 180deg
 - `SCROLL_SPEED`: Speed of scrolling text 
 - `CLOCK_FONT_SIZE`: Size of the clock display
