@@ -9,8 +9,8 @@
     "CLOCK_FONT_SIZE": 90,
     "TRAIN_FONT_SIZE": 60,
     "STATUS_FONT_SIZE": 50,
-	"LATITUDE" : your location,
-	"LONGITUDE" : your location
+	"LATITUDE" : your location ie 51.50, London
+	"LONGITUDE" : your location ie -0.11 London
 
   }
   
