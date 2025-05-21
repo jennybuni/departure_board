@@ -2,6 +2,8 @@
 
 A Python-based digital train departure board that displays real-time train information for a specific platform at a railway station. The application uses the National Rail Data Feeds API to fetch live departure information and presents it in a visually appealing digital display format.
 
+
+
 ## Features
 
 - Real-time train departure information
@@ -11,6 +13,8 @@ A Python-based digital train departure board that displays real-time train infor
 - Configurable display settings
 - Support for multiple platforms
 - Weather information integration (optional)
+
+![Alt text](assets/screenshot.png)
 
 ## Prerequisites
 
@@ -44,13 +48,13 @@ The `config.json` file allows you to customize various aspects of the display:
 - `API_KEY`: Your National Rail Data Feeds API key
 - `STATION_CODE`: The station CRS code (e.g., "WAT" for London Waterloo)
 - `TARGET_PLATFORMS`: Array of platform numbers to display 
-- `UPDATE_INTERVAL`: Time between API updates (in seconds) *advised to keep at 60 seconds*
+- `UPDATE_INTERVAL`: Time between API updates (in seconds) *advised to keep between 45 & 60 seconds to not overload the api*
 - `ROTATE_DISPLAY`: Enable/disable display rotation 180deg
 - `SCROLL_SPEED`: Speed of scrolling text 
 - `CLOCK_FONT_SIZE`: Size of the clock display
 - `TRAIN_FONT_SIZE`: Size of train information text
 - `STATUS_FONT_SIZE`: Size of status text
-- `LATITUDE`: Latitude for temp
+- `LATITUDE`: Latitude for temp *weather API Queried every 10 minutes*
 - `LONGITUDE`: Longitude for temp
 
 ## Usage
@@ -72,5 +76,12 @@ The display will show:
 
 - Press `ESC` to exit the application
 - Close the window to quit
+
+
+## 
+This program has been written for use on a raspbery pi zero W
+so it is lightweight and outputs to HDMI.
+Outputting to spi is in the works.
+
 
 
