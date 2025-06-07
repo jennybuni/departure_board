@@ -33,7 +33,7 @@ cd departure_board
 
 2. Install the required dependencies:
 ```bash
-pip install pygame zeep
+pip install -r requitements.txt
 ```
 
 3. Configure the application:
