@@ -19,9 +19,11 @@ A Python-based digital train departure board that displays real-time train infor
 ## Prerequisites
 
 - Python 3.x
+
+- National Rail Data Feeds API key https://realtime.nationalrail.co.uk/OpenLDBWSRegistration
+
 - Pygame
 - Zeep (SOAP client for Python)
-- National Rail Data Feeds API key https://realtime.nationalrail.co.uk/OpenLDBWSRegistration
 
 ## Installation
 
@@ -40,7 +42,7 @@ pip install -r requitements.txt
  
    First copy the config-template.json to config.json
 ```bash
-mv config-template.json config.json
+cp config-template.json config.json
 ```
 
 The `config.json` file allows you to customize various aspects of the display:
@@ -70,7 +72,7 @@ The display will show:
 - Destination and scheduled departure time
 - Calling points (scrolling text)
 - Service status
-- temperature of the location set in the config.json
+- Temperature of the location set in the config.json
 
 ## Controls
 
